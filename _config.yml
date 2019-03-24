@@ -20,13 +20,13 @@ baseurl: ""
 show-title: false
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Java, Kubernetes, Docker, Microservices
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-#navbar-links:
-#  About Me: "aboutme"
+navbar-links:
+  About Me: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
