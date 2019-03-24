@@ -9,8 +9,10 @@
       </button>
       {% if site.title-img %}
         <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}"><img src="{{ site.title-img }}"/></a>
+      {% elsif site.title and site.show-title %}
+    	<a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
       {% else %}
-        <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+        <a class="navbar-text" ><br /></a>
       {% endif %}
     </div>
 
